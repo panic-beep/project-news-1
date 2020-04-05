@@ -144,3 +144,11 @@ header .toggle{
     list-style: none;
     margin: auto;
 }
+#body .result-container p{
+    font-size:25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#body.dark-mode .result-container p{color: white;}
+#body.light-mode .result-container p{color: black;}
+h4{ font-size: 17px; }
+p{ font-size: 10px; }
