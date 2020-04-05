@@ -92,3 +92,48 @@ header .toggle{
     display: flex;
     justify-content: center;
 }
+.newsContainer{
+    width: 350px;
+    height: 580px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;   
+    background-color:white;    
+} 
+.newsContainer img{
+    padding: none;
+    width: 100%;
+    height: 230px;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+    object-fit: cover;
+}
+.newsBody{ 
+    padding: 1em;
+    text-align: justify;
+ }
+.newsBody ul{ list-style: none; }
+#body .newsUtility{
+    display:flex;
+    justify-content: space-between;
+}
+#body .newsUtility a{
+    border-radius: 5px;
+    padding: 10px;
+    color: white; 
+    font-weight: 200;
+    background-color: rgb(53, 49, 49);
+}
+#body .newsBody button{ 
+    background-color: transparent;
+    border: 0;
+}
+.newsFooter{
+    padding: 1em;
+    background-color: rgb(222, 227, 231);
+    margin-top:auto;
+    text-align: center;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+}
