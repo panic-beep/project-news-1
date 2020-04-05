@@ -137,3 +137,10 @@ header .toggle{
     border-bottom-left-radius: 5px ;
     border-bottom-right-radius: 5px ;
 }
+.containers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    list-style: none;
+    margin: auto;
+}
