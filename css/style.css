@@ -80,3 +80,15 @@ header .toggle{
 }
 #body.dark-mode { background-color: rgb(110, 130, 150); }
 #body.light-mode { background-color:white; }
+.outer-container{
+    max-width: 1024px;
+    height:100%;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.result-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
