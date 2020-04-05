@@ -14,10 +14,10 @@
 <body>
     <div id="body" class="dark-mode">
         <header>
-                <a href="#">News Search & Bookmark</a>
+                <a href="index.html">News Search & Bookmark</a>
                 <ul>
-                    <a href="#">Top News</a>
-                    <a href="#">Bookmarks</a>
+                    <a href="index.html">Top News</a>
+                    <a href="bookmark.html">Bookmarks</a>
                     <button class="toggle"><i class="fa fa-toggle-on" id="btnToggle" aria-hidden="true"></i></button>
                 </ul>
         </header>
@@ -26,6 +26,7 @@
                 <div class="form-group">
                     <div class= "options">
                         <select class="form-control" id="country">
+                            <option value ="">Select Country</option>
                             <option value="ph" selected>Philippines</option>
                             <option value="us">United State of America</option>
                             <option value="uk">United Kingdom</option>
@@ -38,7 +39,7 @@
                     </div>
                     <div class= "options">
                         <select class="form-control" id="category">
-                            <option value ="" selected >All Category</option>
+                            <option value ="" selected >Select Category</option>
                             <option value="business" >Business</option>
                             <option value="entertainment">Entertainment</option>
                             <option value="general">General</option>
@@ -53,6 +54,12 @@
                         <button type="submit" id="btnSearch"><i class="fa fa-search"></i></button>
                     </div>
                 </div>
+            </div>
+            <div class="outer-container">
+                <div class="result-container">
+                    <h2 class="results"></h2>
+                </div>
+                <ul class="containers"></ul>
             </div>
         </main>
     </div>
